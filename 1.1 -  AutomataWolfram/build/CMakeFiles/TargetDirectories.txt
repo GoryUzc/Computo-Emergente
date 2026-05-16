@@ -1,0 +1,3 @@
+C:/Users/User/OneDrive/Desktop/Ejercicios dev/Computo Emergente/1.1 -  AutomataWolfram/build/CMakeFiles/automata.dir
+C:/Users/User/OneDrive/Desktop/Ejercicios dev/Computo Emergente/1.1 -  AutomataWolfram/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/OneDrive/Desktop/Ejercicios dev/Computo Emergente/1.1 -  AutomataWolfram/build/CMakeFiles/ZERO_CHECK.dir
