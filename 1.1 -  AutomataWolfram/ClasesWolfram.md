@@ -9,14 +9,14 @@ Stephen Wolfram clasificó los autómatas celulares unidimensionales en **cuatro
 ## Clase I: Sistemas Homogéneos (Fijos)
 
 ### Características
-- **Comportamiento**: Evolucionan rápidamente hacia un estado homogéneo o periódico estable
-- **Patrones**: Estructuras simples, dominadas por bloques uniformes
+- **Comportamiento**: Evolucionan rápidamente hacia un estado homogéneo o periódico estable en el tiempo.
+- **Patrones**: Estructuras simples, sencillas dominadas por bloques uniformes.
 - **Ejemplos notables**: Regla 0, Regla 255, Regla 32, Regla 128
 
 ### Propiedades
 - **Entropía**: Disminuye con el tiempo (orden crece)
 - **Estabilidad**: Alcanza equilibrio rápidamente
-- **Predicción**: Completamente determinista, evoluciona a estado fijo
+- **Predicción**: Completamente determinista, evoluciona a un estado fijo.
 
 ### Ejemplo Visual (Regla 0)
 ```
@@ -33,14 +33,14 @@ Stephen Wolfram clasificó los autómatas celulares unidimensionales en **cuatro
 ## Clase II: Sistemas Periódicos (Estructuras Estables)
 
 ### Características
-- **Comportamiento**: Evolucionan hacia estructuras periódicas locales
-- **Patrones**: Composición repetitiva de dominós, bloques, triominós
+- **Comportamiento**: Evolucionan hacia estructuras periódicas locales en la region.
+- **Patrones**: Composición repetitiva de dominós, bloques, triominós, figuras.
 - **Ejemplos notables**: Regla 18, Regla 42, Regla 60, Regla 90, Regla 102
 
 ### Propiedades
-- **Entropía**: Mantiene estructuras de baja complejidad
+- **Entropía**: Mantiene estructuras de baja complejidad.
 - **Estabilidad**: Configuraciones que se replican o quedan estáticas
-- **Simetría**: Estructuras geométricas regulares (triángulos, líneas)
+- **Simetría**: Estructuras geométricas regulares (triángulos, líneas, cuadrados)
 
 ### Ejemplo Visual (Regla 90)
 ```
@@ -57,13 +57,13 @@ Stephen Wolfram clasificó los autómatas celulares unidimensionales en **cuatro
 ## Clase III: Sistemas Caóticos (Pseudoaleatorios)
 
 ### Características
-- **Comportamiento**: Caos aparente, aparentan aleatoriedad
-- **Patrones**: Distribución aparentemente aleatoria de celdas vivas/muertas
+- **Comportamiento**: Caos aparente, aparentan aleatoriedad en el tiempo.
+- **Patrones**: Distribución aparentemente aleatoria de celdas vivas/muertas.
 - **Ejemplos notables**: Regla 15, Regla 22, Regla 30, Regla 45, Regla 102
 
 ### Propiedades
-- **Entropía**: Alta, similar a generador de números aleatorios
-- **Difusión**: Perturbaciones se propagan en todas direcciones
+- **Entropía**: Alta, similar a generador de números aleatorios.
+- **Difusión**: Perturbaciones se propagan en todas direcciones.
 - **Mixtura**: Combina orden local con apariencia global caótica
 
 ### Ejemplo Visual (Regla 30)
