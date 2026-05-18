@@ -1,0 +1,10 @@
+^C:\USERS\USER\ONEDRIVE\DESKTOP\EJERCICIOS DEV\COMPUTO EMERGENTE\1.2 - MEDIDASCUANTITATIVAS-AC\BUILD\CMAKEFILES\92790C1FD404211D09A8F9FDB803BE3C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/OneDrive/Desktop/Ejercicios dev/Computo Emergente/1.2 - MedidasCuantitativas-AC" "-BC:/Users/User/OneDrive/Desktop/Ejercicios dev/Computo Emergente/1.2 - MedidasCuantitativas-AC/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/User/OneDrive/Desktop/Ejercicios dev/Computo Emergente/1.2 - MedidasCuantitativas-AC/build/MedidasCuantitativasAC.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
