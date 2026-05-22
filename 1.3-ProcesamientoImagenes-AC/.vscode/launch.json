@@ -1,0 +1,61 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🚀 Detector Bordes - Mi Imagen 4",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Release/detector_bordes.exe",
+            "args": [
+                "assets/AC-imagen4.jpg",
+                "resultados/bordes_4.jpg",
+                "silueta"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        // {
+        //     "name": "🚀 Detector Bordes - Mi Imagen 2",
+        //     "type": "cppvsdbg",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/build/Release/detector_bordes.exe",
+        //     "args": [
+        //         "assets/AC-imagen2.png",
+        //         "resultados/bordes_2.png",
+        //         "silueta"
+        //     ],
+        //     "cwd": "${workspaceFolder}",
+        //     "console": "integratedTerminal",
+        //     "stopAtEntry": false
+        // },
+        // {
+        //     "name": "🚀 Detector Bordes - Borde Completo",
+        //     "type": "cppvsdbg",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/build/Release/detector_bordes.exe",
+        //     "args": [
+        //         "assets/AC-imagen3.png",
+        //         "resultados/bordes_3.png",
+        //         "borde_completo"
+        //     ],
+        //     "cwd": "${workspaceFolder}",
+        //     "console": "integratedTerminal",
+        //     "stopAtEntry": false
+        // },
+        // {
+        //     "name": "🚀 Detector Bordes - Erosión",
+        //     "type": "cppvsdbg",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/build/Release/detector_bordes.exe",
+        //     "args": [
+        //         "assets/AC-imagen4.png",
+        //         "resultados/bordes_4.png",
+        //         "erosion"
+        //     ],
+        //     "cwd": "${workspaceFolder}",
+        //     "console": "integratedTerminal",
+        //     "stopAtEntry": false
+        // }
+    ]
+}
