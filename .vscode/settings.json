@@ -1,7 +1,8 @@
 {
-    "cmake.configureSettings": {
-        "CMAKE_TOOLCHAIN_FILE": "C:/Users/User/vcpkg/scripts/buildsystems/vcpkg.cmake"
-    },
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=C:/Users/User/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "-A", "x64"
+    ],
     "cmake.buildDirectory": "${workspaceFolder}/build",
     "cmake.generator": "Visual Studio 17 2022",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
