@@ -15,6 +15,7 @@ Cada proyecto es autónomo: posee su propio `CMakeLists.txt`, puede compilarse d
 | 2.2 | `Bohachevsky-AG` | Optimización Genética | Algoritmo genético para minimizar la función de Bohachevsky, con diagnósticos de convergencia y búsqueda por cuadrícula. | ✅ Completado |
 | 2.3 | `TSP-AG` | Optimización del TSP | Solución del problema del viajero de comercio mediante un algoritmo genético con 10 ciudades y visualización de rutas. | ✅ Completado |
 | 3.1 | `Lab_RNA` | Redes Neuronales | Exploración de cinco modelos de RNA (perceptrón, ADALINE, MLP, Kohonen y Hopfield) con exportación CSV y visualización interactiva. | ✅ Completado |
+| 4 | `LogDfuzzy-Sismic` | Lógica Difusa Sísmica | Sistema difuso para estimar la severidad sísmica a partir de magnitud, profundidad y distancia epicentral usando inferencia Mamdani, Python frontend y exportación CSV. | ✅ Completado |
 
 ## Cómo compilar cualquier proyecto
 
@@ -67,7 +68,13 @@ cmake --build build --config Debug
 ```
 
 ```bash
-cd "../3.1-Lab_RNA"
+cd "../3-Lab_RNA"
+cmake -B build -S . -G "Visual Studio 17 2022" -DCMAKE_TOOLCHAIN_FILE=C:/Users/User/vcpkg/scripts/buildsystems/vcpkg.cmake
+cmake --build build --config Debug
+```
+
+```bash
+cd "../4-LogDfuzzy-Sismic"
 cmake -B build -S . -G "Visual Studio 17 2022" -DCMAKE_TOOLCHAIN_FILE=C:/Users/User/vcpkg/scripts/buildsystems/vcpkg.cmake
 cmake --build build --config Debug
 ```
